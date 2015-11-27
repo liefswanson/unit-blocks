@@ -2,14 +2,28 @@
 using System.Collections;
 
 public class Health : MonoBehaviour {
+	public ulong max;
+	private ulong current;
 
-	// Use this for initialization
 	void Start () {
-	
+		current = max;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Update () {}
+
+	public virtual void heal(ulong scale) {
+		if (scale + current > max ) {
+			current = max;
+		} else {
+			current += scale;
+		}
+	}
+
+	public virtual void hurt(ulong scale) {
+		if (current < scale) {
+			Destroy(gameObject);
+		} else {
+			current -= scale;
+		}
 	}
 }
