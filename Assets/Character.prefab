@@ -410,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6687cbe3f6e58406295cb7bf1e5c71c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  power: 10
 --- !u!114 &11476102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -421,6 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0fe6162e1624874927d8fba460df5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max: 0
 --- !u!124 &12451458
 Behaviour:
   m_ObjectHideFlags: 1

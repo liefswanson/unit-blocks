@@ -96,7 +96,6 @@ GameObject:
   - 212: {fileID: 535173775}
   - 61: {fileID: 535173774}
   - 50: {fileID: 535173777}
-  - 114: {fileID: 535173778}
   m_Layer: 9
   m_Name: Blob1
   m_TagString: Untagged
@@ -171,18 +170,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &535173778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 535173773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db0fe6162e1624874927d8fba460df5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  max: 100
 --- !u!1001 &1646450430
 Prefab:
   m_ObjectHideFlags: 0
@@ -222,11 +209,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196782, guid: 8facf7029eac24b258baad649994127f, type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11476102, guid: 8facf7029eac24b258baad649994127f, type: 2}
+    - {fileID: 11438456, guid: 8facf7029eac24b258baad649994127f, type: 2}
+    - {fileID: 11429588, guid: 8facf7029eac24b258baad649994127f, type: 2}
+    - {fileID: 11444700, guid: 8facf7029eac24b258baad649994127f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8facf7029eac24b258baad649994127f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1730680509
